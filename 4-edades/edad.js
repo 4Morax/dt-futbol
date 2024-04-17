@@ -32,4 +32,4 @@ function edad(cumple) {
   return edad;
 }
 
-console.log(Lucho.nombre, `"${Lucho.apodo}"`, Lucho.apellido, edad(cumple));
+console.log(Lucho.nombre, `"${Lucho.apodo}"`, Lucho.apellido, `${edad(cumple)} años`);
