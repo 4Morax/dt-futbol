@@ -50,3 +50,5 @@ jugadores.forEach(jugador => {
   console.log('Apellido:', jugador.apellido);
   console.log('Edad:', jugador.getEdad());
 });
+
+module.exports = jugadores;

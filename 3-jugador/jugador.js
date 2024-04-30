@@ -17,3 +17,4 @@ const Lucho = {
 };
 
 console.log(Lucho.nombre, `"${Lucho.apodo}"`, Lucho.apellido);
+module.exports = Lucho;
